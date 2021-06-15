@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Logo */
+.logo {
+    width: 160px;
+    display: inline-block;
+    padding: 30px;
+    object-fit: cover;
+}
+
+/* Navegador */
+.navegador {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: 60em;
+}
+
+li, a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;   
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.nav-links li, a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li, a:hover {
+    color: rgb(103, 166, 239);
+    transform: scale(1.1);
+}
+
+/* Home */
+.container {
+    padding-top: 3%;
+}
+.mi-encabezado {
+    font-family: 'Antonio', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: rgb(34, 149, 237) 4px 4px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.home-productos {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.img-home {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.prueba {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8%;
+}
+
+section div img {
+    width: 120px;
+    margin-left: 2%;
+}
+
+.info-home {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+
+.info-home-2 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.info-home-2:hover {
+    transform: scale(1);
+    color: rgb(34, 149, 237);
+}
+
+.info-footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    float: center;
+    padding: 20px;
+}
+
+.footer {
+    padding-top: 20%;
+}
+
+.footer-texto {
+    display: flex;
+    justify-content: center;
+}
+/* Final de home */
+
+
+/* Inicio de Nosotros */
+.mi-encabezado-2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    text-shadow: 4px 4px rgb(48, 114, 230);
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.info-nosotros {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    word-spacing: 1,5px;
+    padding-left: 10px;
+}
+
+.info-mayorista {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    word-spacing: 1,5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.img-nosotros {
+    width: 200px;
+    padding: 2%;
+}
+
+.mapa-nosotros {
+    display: flex;
+    justify-content: center;
+}
+/* Final de Nosotros */
+
+/* Inicio de Contacto */
+
+.redes-contacto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.contact-info {
+    color: white;
+}
+
+label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    color: white;
+}
+
+.contact-form {
+    padding: 2%;
+}
+
+.btn {
+    color: white;
+}
+
+.btn:hover {
+    color: rgb(100, 175, 254);
+}
+/* Final de Contacto */
+
+
+/* Redes sociales */
+footer a img {
+    width: 100px;
+    float: left;
+    padding: 2rem;
+}
+
+footer a img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+
+/* Icono de Whatsapp en la esquina */
+
+.whatsapp-icono {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+    padding: 1%;
+}
+
+.whatsapp-icono:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: rgb(30, 30, 30);
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: rgb(106, 33, 33);
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width:960px) {
+    body {
+        background-color: rgb(100, 175, 254);
+    }
+}
